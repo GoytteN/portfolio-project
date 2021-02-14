@@ -7,7 +7,7 @@
 }
 
 :root {
---color-baby-blue: #19D2EB;
+--color-baby-blue: #26bef5;
 --color-blue-light: #26A6CE;
 --color-lighten-blue: #00BEE8;
 --color-darkned-blue: #0C57C9;
@@ -73,11 +73,44 @@ a::before {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   margin-right: 0;
 
-  transition: 300ms;
+  transition: 250ms;
 }
 
 #button:hover {
-  font-size: 23px;
   background-color: var(--color-baby-blue);
-  transition: 300ms;
+  transform: scale(1.06);
+}
+
+/* Main */
+
+#name {
+  background-color: var(--color-dark-blue-frosted);
+
+  width: 600px;
+  height: 184px;
+
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#name h1 {
+  display: inline;
+  font-size: 76px;
+  font-family: 'Fugaz One',sans-serif;
+
+  color: var(--color-blue-light);
+
+  margin-top: 30px;
+  padding-top: 10px;
+
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#name h2 {
+  color: #fff;
+  font-family: 'Germania One',sans-serif;
+  font-size: 36px;
+
+  text-shadow: 5px 5px 5px #000;
 }
