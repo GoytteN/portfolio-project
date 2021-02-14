@@ -1,0 +1,9 @@
+#box h1 {
+  display: inline;
+  font-size: 76px;
+  font-family: 'Fugaz One',sans-serif;
+
+  color: var(--color-blue-light);
+
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,55 @@
+:root {
+--color-baby-blue: #26bef5;
+--color-blue-light: #26A6CE;
+--color-lighten-blue: #00BEE8;
+--color-darkned-blue: #0C57C9;
+--color-dark-blue-frosted:  #354685;
+--color-fourth: #4C5B84;
+}
+
+/* Header */
+
+img#logo {
+  height: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--color-dark-blue-frosted);
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+/* Links and buttons */
+
+a {
+  display: inline-flex;
+  align-items: center;
+
+  color: white;
+
+  font-size: 20px;
+  font-family: 'Doppio One', Arial, Helvetica, sans-serif;
+
+  text-decoration: none;
+  margin-right: 30px;
+
+}
+
+a::before {
+  content: "";
+
+  background-color: var(--color-lighten-blue);
+
+  border-radius: 2px;
+
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
