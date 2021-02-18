@@ -1,0 +1,17 @@
+.skill-tec {
+  display: flex;
+  font-family: 'Fugaz One', sans-serif;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.skill-tec .img-icon {
+  margin-right: 25px;
+  width: 70px;
+}
+
+.skill-tec .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
