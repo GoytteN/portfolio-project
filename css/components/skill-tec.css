@@ -1,5 +1,6 @@
 .skill-tec {
   display: flex;
+  align-items: center;
   font-family: 'Fugaz One', sans-serif;
   font-size: 25px;
   color: #FFF;
@@ -7,7 +8,12 @@
 
 .skill-tec .img-icon {
   margin-right: 25px;
-  width: 70px;
+  width: 80px;
+}
+
+.skill-tec .img-icon.-square {
+  height: 75px;
+  width: 75px;
 }
 
 .skill-tec .right {
